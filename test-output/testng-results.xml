@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18137" started-at="2020-12-01T14:22:27 IST" finished-at="2020-12-01T14:22:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18137" started-at="2020-12-01T14:22:27 IST" finished-at="2020-12-01T14:22:45 IST">
+      <class name="tests.GoogleTitleTestWithAnnotations2">
+        <test-method status="PASS" signature="launchSite()[pri:0, instance:tests.GoogleTitleTestWithAnnotations2@480bdb19]" name="launchSite" is-config="true" duration-ms="15448" started-at="2020-12-01T14:22:27 IST" finished-at="2020-12-01T14:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="titleTest()[pri:1, instance:tests.GoogleTitleTestWithAnnotations2@480bdb19]" name="titleTest" duration-ms="1768" started-at="2020-12-01T14:22:42 IST" finished-at="2020-12-01T14:22:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Title test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="closeSite()[pri:0, instance:tests.GoogleTitleTestWithAnnotations2@480bdb19]" name="closeSite" is-config="true" duration-ms="771" started-at="2020-12-01T14:22:44 IST" finished-at="2020-12-01T14:22:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- tests.GoogleTitleTestWithAnnotations2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
